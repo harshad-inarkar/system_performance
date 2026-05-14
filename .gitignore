@@ -1,3 +1,18 @@
+
+# Ignore all hidden files and folders (recursive)
+.*
+!.gitignore
+!.gitkeep
+
+# Python bytecode / cache (recursive)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Optional: Python compiled extensions
+*.so
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
